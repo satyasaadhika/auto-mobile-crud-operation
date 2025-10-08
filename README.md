@@ -74,3 +74,28 @@ CREATE TABLE autos (
 - Email: any email
 - Password: php123
 
+
+## Usage:
+
+- Login: Access the login page and enter credentials
+- Dashboard: View all automobile records
+- Add Entry: Click "Add New Entry" to insert a new automobile
+- Edit Entry: Click "Edit" next to a record to modify details
+- Delete Entry: Click "Delete" and confirm to remove a record
+- Logout: Click "Logout" to end the session
+
+## Project Structure
+```bash
+    auto-mobile-crud-operation/
+│
+├── index.php         # Dashboard listing all autos
+├── login.php         # User login page
+├── logout.php        # Logout script
+├── add.php           # Add new automobile
+├── edit.php          # Edit existing automobile
+├── delete.php        # Delete automobile
+└── README.md         # Project documentation
+```
+
+
+
